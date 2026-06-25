@@ -1,6 +1,6 @@
 # U-JUN Portfolio
 
-전유준 개발자 재취업용 GitHub Pages 포트폴리오입니다.
+전유준 포트폴리오입니다.
 
 Repository: https://github.com/JeonYuJun/U-JUN
 
