@@ -13,6 +13,7 @@
   --dark: #20242c;
   --dark-soft: #2b3340;
   --shadow: 0 16px 40px rgba(19, 32, 51, 0.08);
+  --font-sans: "Pretendard Variable", "Pretendard", "Noto Sans KR", "Noto Sans", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
 }
 
 * {
@@ -27,9 +28,14 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: "Noto Sans", "Noto Sans KR", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+  font-family: var(--font-sans);
   line-height: 1.65;
   letter-spacing: 0;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-break: keep-all;
 }
 
 a {
@@ -63,7 +69,7 @@ ul {
 }
 
 .brand {
-  font-weight: 900;
+  font-weight: 800;
   font-size: 18px;
 }
 
@@ -111,7 +117,7 @@ ul {
 .eyebrow {
   color: var(--brand-deep);
   font-size: 13px;
-  font-weight: 900;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
@@ -194,7 +200,7 @@ h5 {
   background: #ffffff;
   color: var(--ink);
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .button.primary {
@@ -210,6 +216,15 @@ h5 {
 
 .section-heading h2 {
   margin-top: 8px;
+}
+
+.hero-heading h2 {
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+.hero-heading h2 span {
+  display: block;
 }
 
 #about .section-heading {
@@ -253,7 +268,7 @@ h5 {
 .hero-profile span {
   color: var(--muted);
   font-size: 13px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .hero-profile strong {
@@ -333,7 +348,7 @@ h5 {
 .group-title span {
   color: var(--gold);
   font-size: 13px;
-  font-weight: 900;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
@@ -358,7 +373,7 @@ h5 {
   background: #e8fbf7;
   color: var(--brand-deep);
   font-size: 12px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .project-detail {
@@ -376,7 +391,7 @@ h5 {
 }
 
 .project-detail dt {
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .project-detail dd {
@@ -443,7 +458,7 @@ h5 {
   display: block;
   color: var(--gold);
   font-size: 12px;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 0;
 }
 
@@ -476,13 +491,13 @@ h5 {
 .project-url-box span {
   color: var(--gold);
   font-size: 12px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .project-url-box a {
   color: var(--brand-deep);
   font-size: 15px;
-  font-weight: 900;
+  font-weight: 800;
   overflow-wrap: anywhere;
 }
 
