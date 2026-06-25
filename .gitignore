@@ -1,0 +1,4 @@
+# 포트폴리오 배포에서 제외할 로컬 작업 산출물
+.DS_Store
+.superpowers/
+docs/
